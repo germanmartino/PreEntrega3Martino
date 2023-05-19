@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollo y diseño web">
+    <meta name="keywords" content="Desarrollo, Web, Diseño, Proyecto, Trabajo, HTML, Html5, website, site, calidad, confiable, recomendable, hosting, webhosting, design, Rosario, Argentina, BuenosAires">
+    <meta name="author" content="German Martino">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <title>Servicios | PreEntrega 3 - German Martino</title>
+</head>
+
+<body>
+<!-- inicio barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">PreEntrega3 Martino</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- fin barra de navegación -->
+<!-- inicio banner + titulo -->
+    <header>
+        <div class="bg-img">
+            <div class="titulo">Servicios</div>
+    </header>
+<!-- fin banner + titulo -->
+
+    <main>
+<!-- inicio sección servicios -->
+        <div class="container">
+            <div class="row" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <a href="s1.html"><img src="assets/img/servicios.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Lorem</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <a href="s1.html"><img src="assets/img/servicios.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Lorem</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <a href="s1.html"><img src="assets/img/servicios.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Lorem</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <a href="s1.html"><img src="assets/img/servicios.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Lorem</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- fin sección servicios -->
+
+<!-- inicio formulario de contacto -->
+        <div class="container px-5 my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 rounded-3 shadow-lg">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <div class="h1 fw-light">Trabajemos juntos</div>
+                            </div>
+                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" type="text" placeholder="Nombre Completo"
+                                        data-sb-validations="required" />
+                                    <label for="name">Nombre Completo</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Nombre requerido.
+                                    </div>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="emailAddress" type="email" placeholder="Email"
+                                        data-sb-validations="required,email" />
+                                    <label for="emailAddress">Email</label>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
+                                        requerido.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email no es
+                                        valido.</div>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" type="text" placeholder="Mensaje"
+                                        style="height: 10rem;" data-sb-validations="required"></textarea>
+                                    <label for="message">Mensaje</label>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">Mensaje requerido.
+                                    </div>
+                                </div>
+
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">
+                                        <div class="fw-bolder">Mensaje enviado correctamente!</div>
+                                        <p>Te responderemos en la brevedad.</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-none" id="submitErrorMessage">
+                                    <div class="text-center text-danger mb-3">Error al enviar mensaje.</div>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                        type="submit">Enviar</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- fin de formulario -->
+    </main>
+<!-- inicio footer -->
+    <footer>
+        <iframe style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.7890327047053!2d-60.624568999999994!3d-32.9565789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7aafeec51a66b%3A0x470f9d1b1e3f0616!2sChacabuco%20%26%209%20de%20Julio%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1657611656511!5m2!1ses-419!2sar"
+            frameborder="0" allowfullscreen></iframe>
+        <p>Todos los derechos reservados - Copyright <span>Proyecto Martino</span></p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+<!-- fin footer -->
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

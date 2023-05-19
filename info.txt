@@ -1,0 +1,18 @@
+Abrir CMD
+Escribir cd y arrastrar la carpeta SASS
+npm install -g sass (Se instala una vez por capeta)
+sass --watch style.scss style.css (depende el nombre de cada archivo que utilicemos)
+sass --watch carpeta/style.scss carpeta/style.css (si estan en carpeta) 
+
+/// otra opción
+Abrir terminal en VS
+Salir de powershell y click en Command Prompt
+npm install -g sass
+sass --watch style.scss style.css 
+sass --watch carpeta/style.scss carpeta/style.css (si estan en carpeta) 
+
+*LA TERMINAL NO SE CIERRA, DEJARIA DE COMPILAR*
+
+// Otra opción
+es con la extensión Live Sass Compiler
+Cuando abrimos VS y necesitamos compilar, click en Watch Sass
